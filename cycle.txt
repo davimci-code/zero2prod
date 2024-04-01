@@ -1,0 +1,5 @@
+inner development loop:
+- make a change
+- compile the app.
+- run tests
+- run the app.
