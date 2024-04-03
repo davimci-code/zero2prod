@@ -1,2 +1,6 @@
 #this will speed up compilation time
-#allegedly, at the moment just messing with some config files
+[target.x86_64-pc-windows-msvc]
+rustflags = ["-C", "link-arg=-fuse-ld=lld"]
+
+[target.x86_64-pc-windows-gnu]
+rustflags = ["-C", "link-arg=-fuse-ld=lld"]
